@@ -14,7 +14,14 @@ async fn main() {
 
     let start = std::time::Instant::now();
 
-    {}
+    {
+        let Some(mut processor) = processors::get_processor(&processor) else {
+            println!("# Processor not found");
+            return;
+        };
+
+        processor.process().await;
+    }
 
     let elapsed = start.elapsed();
 
