@@ -1,5 +1,7 @@
 # batch-processor.rust
 
+![](https://img.shields.io/badge/language-Rust-red) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 ## run
 
 ```
