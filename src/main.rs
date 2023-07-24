@@ -1,4 +1,5 @@
 mod command;
+mod processors;
 
 use command::Command;
 
